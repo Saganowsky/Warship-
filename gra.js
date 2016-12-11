@@ -38,13 +38,13 @@ while (isSunk == false) {
             
             } else {
                 
-                alert("Próbuj dalej !")
+                alert("Probuj dalej !")
             }
 
     
 }
 
     
-    var stats = " Potrzebowales jedynie " + tries + " prób, aby zniszczyc tych amatorow";
+    var stats = " Potrzebowales jedynie " + tries + " prob, aby zniszczyc tych amatorow";
 
 alert(stats);
