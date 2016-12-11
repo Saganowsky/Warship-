@@ -1,0 +1,50 @@
+var location1 = 3;
+var location2 = 4;
+var location3 = 5;
+var guess;
+var hits  = 0;
+var tries = 0;
+var isSunk = false;
+
+while (isSunk == false) {
+    
+       guess =  prompt("Podaj pole do zestrzelenia - (liczba z zakresu 1 - 6)");
+    
+        if (guess < 0 || guess > 6) {
+            
+            alert("Prosze podac odpowiednia cyfre od 1 do 6 ! ")
+            
+        } else {
+           tries = tries + 1;
+            
+            
+        }
+            
+
+    
+        if ( guess == location1 || guess == location2 ||  guess == location3) {
+            
+            alert("Trafiles drania !");
+            
+          hits = hits + 1;
+
+            if (hits == 3) {
+                
+                isSunk = true;
+                
+                alert("No niezle, zniszczylismy te lajbe!");
+                
+            }
+            
+            } else {
+                
+                alert("Próbuj dalej !")
+            }
+
+    
+}
+
+    
+    var stats = " Potrzebowales jedynie " + tries + " prób, aby zniszczyc tych amatorow";
+
+alert(stats);
