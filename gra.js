@@ -43,7 +43,7 @@ while (isSunk == false) {
 
     
 }
-}
+
 
     
     var stats = " Potrzebowales jedynie " + tries + " prob, aby zniszczyc tych amatorow";
